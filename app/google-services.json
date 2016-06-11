@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "463712541489",
+    "project_id": "freedom-5f5d3"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463712541489:android:526b6be73babf4a9",
+        "android_client_info": {
+          "package_name": "com.quarkstar.freedom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463712541489-fdltv1hpmilmteet2s8d4mguf0b0gkgn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quarkstar.freedom",
+            "certificate_hash": "CC35F5E91C8D452EA54DA0D63651BCA5362C5BEA"
+          }
+        },
+        {
+          "client_id": "463712541489-n9m1f5s11fanfp8p7m1hpp0jugsf614c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3GzaRrib6f13oPTNMzf2wcVYdQXTsQf0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

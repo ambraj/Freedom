@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/activity_login"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.quarkstar.freedom.LoginActivity"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="80dp">
+
+    <ImageView
+            android:layout_width="218dp"
+            android:layout_height="295dp"
+            android:background="@drawable/free_sprit"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="24dp"
+            android:id="@+id/imageView"
+            app:layout_constraintLeft_toLeftOf="@+id/activity_login"
+            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintTop_toTopOf="@+id/activity_login"
+            android:layout_marginTop="24dp"
+            tools:layout_constraintTop_creator="0"
+            app:layout_constraintRight_toRightOf="@+id/activity_login"
+            tools:layout_constraintRight_creator="1"/>
+
+    <Button
+            android:text="Sign in with Google"
+            android:layout_width="395dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="343dp"
+            android:id="@+id/button_google_signin"
+            android:background="#DF4A32"
+            android:textColor="#ffffff"
+            app:layout_constraintLeft_toLeftOf="@+id/imageView"
+            tools:layout_constraintLeft_creator="0"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            android:layout_marginTop="24dp"
+            tools:layout_constraintTop_creator="0"
+            app:layout_constraintRight_toRightOf="@+id/imageView"
+            tools:layout_constraintRight_creator="0"/>
+
+    <Button
+            android:text="Sign in with Facebook"
+            android:layout_width="395dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="407dp"
+            android:id="@+id/button_facebook_signin"
+            android:background="#52699f"
+            android:textColor="#ffffff"
+            app:layout_constraintLeft_toLeftOf="@+id/button_google_signin"
+            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintTop_toBottomOf="@+id/button_google_signin"
+            android:layout_marginTop="16dp"
+            tools:layout_constraintTop_creator="0"
+            app:layout_constraintRight_toRightOf="@+id/button_google_signin"
+            tools:layout_constraintRight_creator="1"
+            app:layout_constraintHorizontal_bias="1.0"/>
+
+    <Button
+            android:text="sign in with Twitter"
+            android:layout_width="395dp"
+            android:layout_height="49dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="471dp"
+            android:id="@+id/button_twitter_signin"
+            android:textColor="#ffffff"
+            android:background="#37CDFF"
+            app:layout_constraintLeft_toLeftOf="@+id/button_google_signin"
+            tools:layout_constraintLeft_creator="0"
+            app:layout_constraintTop_toBottomOf="@+id/button_facebook_signin"
+            android:layout_marginTop="16dp"
+            tools:layout_constraintTop_creator="0"/>
+
+</android.support.constraint.ConstraintLayout>

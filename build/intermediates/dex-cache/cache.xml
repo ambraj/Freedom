@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.0.0_dfe991b527199f076a3d3ac67812542bac04badb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="b8bedab61b3b5238cd9a07d3b04449d7fecdbc3b">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.0.0_f2c095f76b58f09f5bb9dc3902aa65fb67a63c3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="5f0f6913a208a126269aaa68004ed0329a832c5b">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.0.0_772fb0ca28c699d623c592a58741ac22428cb990\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="5289e799a43a64c4137d109bf992e10a2f952aa3">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.0.0_58541b29e4e1ed826cf0fe693321e99c19afcd55\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.0.0_bbf53602d744c6e5f0b41c179da256b00a43555f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="69472e334350cafbf442776da05c9a04955252fb">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.0.0_a57e2538a9e4265689367c87338e2bc9234d5b10\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_d5c3848460271de0c1d550016c00fd1f2ac0c7e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_28c26f84b36eb926886708ae12a4c4780f04ae13\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="a819aae4f0c711e50b4fd633922a3c1a176cb51e">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.0.0_6e3856cc608488babb62195fa9313d6d006bd0eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_4dea9209f33ea61df646a4528ba5213617992f1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="d7002ed92a3c46c6a89a786877ecf7978a4f0459">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.0.0_c0433db1472c3cd2a4fcea71311c45ed0d9cb9b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="2f7bd8cc7519d5231aa8d2ae8e905d3f602bd491">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-9.0.0_e7a0aae5e1aad0b8412d4311cd56461dec3b436e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="a0f00ccc5f7bf5880447758b1b84643d851a3d97">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f490dc4e2fce420477e5e835f00129d19e75a290\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="67a7d712de3e7d025f4efdcec1da183f764bdbab">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.0.0_1f5090e22036c969e3c4ccdbe5276894741fa52c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="aa67d5f966a75f7db1fcb5d564a42e3b9325792f">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2c60b98f5eeddd335a99d8989b7a107bcac33e7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="d96f9f3ef66494d1231304cafd28c962dda80dea">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-9.0.0_7c8d9bcf943e5417ec43bb205cc6130c99b8db95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="70ddab48594608953b20164b82f1f890a9a8174a">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.0.0_e11c4e0ee92fd5014450801389b2fddbf7037b0f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_7f5870d420e762bf3184beebba1f9bd07b12f9b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="294d49a66cc1238d9f7fd352136a45622fa98c0f">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-9.0.0_1570c05e2c9cf83d2e79b1d30e0e1642fa9d9385\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_7de882b605a06d12ec6309df865009cd404afd81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="2c5bc0ebbe69c9fab587c2216b36ec44ab8f0704">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-9.0.0_c0104ae5bc9d3f08c02269d76c917a829d1c2827\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="ebfde1a055aea400df77584a68aa60609f618bed">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-9.0.0_c4f565ae09db0199c4dc18b9c2a48bb319a987f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="79e4b41db41d4dbbf364c7bd6aaeee5b876c9d8b">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.0.0_da8abd8f7e6acb3a259bd1f7f0bb262a3778799a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="7da84426d876216ed4cdddd85e739be5ecabdd04">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.0.0_ffbd465e3bfd83bbdd995124de9bbe99010549b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.0.0_6b3dd8562f16320684b5740a8dfacc823bc8e93c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Softwares\Development\AndriodSDK\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_fb9cc39c0754c9840d8974e2df383b500dd02701\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_31c76b585d5df64bd02db36cfee79322b7635316\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="0facc6fc326f2406f4bb9b02f442994c5ce6a403">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.0.0_288b1b6dde71023d31de3cf93dd123313c5e16d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="ed16ff19f0a9515604a0f08104ca0317b82e29e3">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.0.0_89308e9432d59a20a1a7c1785f033ff2ea939b48\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="7a23185c9b1c100e7d1a32275017e4712e31c796">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.0.0_fd44f3154a777e22037022ac10e20cd867b5c7be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="379d1834afa3c08f43be23a23b103053537b65b5">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.0.0_697e0586c6528aac4ed13aecf71c01356aeecc6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="32a5a566ae197603d0bed3e6d1d275f6a771564e">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.0.0_14ce2ab91dfb219a8e1d103c1df9ed5006ae679a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="f4e85eafa876cd7d7641244867dac3f88d71e866">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.0.0_84e4b7ff44fb582e454fcd7f73c6133004deba01\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_29586f870bb120f94f7be9909a0d9d88db23a8d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Softwares\Development\android-studio-ide-145.2878421-windows\android-studio\gradle\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha1\constraint-layout-solver-1.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="23c28d005ab0c8197f8ee39d63b4dd09949bf9cc">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-alpha1_f2bdfcb66aa80d82f3513f835a37584add6c9878\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="8126914f5bc372a33e27ea90f02412c32468ce8a">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.0.0_4788b3e8e05c3068258526735ece9bd696b82333\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.0.0_4d56eb540ed8d12a092a0e9578f08738421cc82e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="4431efe5d0f67fab36a698dde725946b33a6bf4a">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.0.0_f74c93fce2a8c8b7f10bf9f1713378df29176b5d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="373cd65725af2781d100ddc193c7d3f14464a774">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.0.0_91238a5af66995f2066f1b52d416f98a310a96c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="733964f04c339e425439545b1d172c23b53f8c13">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.0.0_9e808fdd5ecd5e6eefb243c34873c59f6afce7be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="ef5c5c2afbd174d55cf1cfcac7d0346cbc4c1322">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.0.0_b6a78a838cfa4efce97fe36f91d99670eceb7e6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="59cca9b91688dc2467754d36793b3d23bebd21a9">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.0.0_1ae6df4104bc5d4035d26afae76aab14495792b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.0.0_1b85eff8c156bfab2af9e428bc73db31cc6275c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="6ea200a19689e637dafc8b8f036734a1b9cbe2b3">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.0-alpha1_066444db48a04ebfef47980b7c98c34d8b0af2fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="005786793d72c6deacbbbfd38177ed58e1aa6653">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.0.0_7a59c029fa9f26dda18af00de303c3b4992f6d89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_83ab8fdd2339c18ce54c040ab996a5a9098ee340\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="2cb29455028e92e024bbad0d41c6ec772f2433d1">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.0.0_15133c39160e1c8f28271f1cd5ecde539103b88b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="7e467a973b749c6390a5991c9a8edbde96fc10c9">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.0.0_2a4e63ddf06ea736a9467b1d83ef6ee3a8647163\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_6fbd67bb05f4b301899e5dc98d4a8cadb2b885b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.0.0_1d6e343bc7eb3f2bd79b3b6a71706e3d4d05d1b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="4caf75b2cfb7ec6e80a57d0ee64fc102ad3578b8">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.0.0_dd42c71448b916ce72ef8593d5920eb4780d3f32\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="24536a7b97926a9c155c88425da6875adeb11b51">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.0.0_b495c0af77a1981881e237d113933fe2df44a526\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="817b9101192f2fd6dc0fd8cd522d8f4a1a75fcdc">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.0.0_85a836feb038da5cf424a51efa44b4620530890f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.0.0_37c243fa3ad5e37db0e70b3f0e34b9f1d43222e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="e595f98f8c525201dccd119f43ad1ddacd4c48d6">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-9.0.0_b1951da19462be20e1eb0069b9196a4cb12e8b4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="c11cf7a7a6e5adf8fa564303a11dbc351fc11b7c">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.0.0_a10f5beb34d3fed829085c9b3e23ebbaa6bf1ddd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="184428c29b2a4b220cd44284d515db5d8cb5fc76">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-9.0.0_2a382add9d39dcef7a016c786627294986edb349\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Ambuj Work\Android\Freedom\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="D:\Ambuj Work\Android\Freedom\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_e5e45b8e5c14aaf288dd941f05565781b2cc7843\classes.dex" />
+    </item>
+
+</items>
