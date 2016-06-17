@@ -13,7 +13,9 @@ import android.view.MenuItem;
 import com.google.android.gms.maps.GoogleMap;
 
 public class MainActivity extends AppCompatActivity
-    implements NavigationView.OnNavigationItemSelectedListener, MainFragment.OnFragmentInteractionListener/*, OnMapReadyCallback, LocationListener*/, CategoryUnderRadiusFragment.OnFragmentInteractionListener {
+    implements NavigationView.OnNavigationItemSelectedListener, NearbySearchFragment.OnFragmentInteractionListener,
+    ListOfPlacesFragment.OnFragmentInteractionListener
+    , HelplineFragment.OnFragmentInteractionListener, MainFragment.OnFragmentInteractionListener/*, OnMapReadyCallback, LocationListener*/, CategoryUnderRadiusFragment.OnFragmentInteractionListener {
 
     private GoogleMap mMap;
 
@@ -23,6 +25,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 //        setSupportActionBar(toolbar);
+//        getActionBar().hide();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -43,7 +46,7 @@ public class MainActivity extends AppCompatActivity
 //        mapFragment.getMapAsync(this);
 //
 //        GridView gridLayout = (GridView) findViewById(R.id.grid_view);
-//        gridLayout.setAdapter(new ImageAdapter(this));
+//        gridLayout.setAdapter(new NearBySearchAdapter(this));
 
 //        setUpMap();
 
@@ -119,7 +122,7 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
 
-        } else if (id == R.id.nav_gallery) {
+        } /*else if (id == R.id.nav_gallery) {
 
             CategoryUnderRadiusFragment fragment = new CategoryUnderRadiusFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction =
@@ -127,14 +130,36 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
 
-        } else if (id == R.id.nav_slideshow) {
+        }*/ else if (id == R.id.nav_slideshow) {
+
+            NearbySearchFragment fragment = new NearbySearchFragment();
+            android.support.v4.app.FragmentTransaction fragmentTransaction =
+                getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.fragment_container, fragment);
+            fragmentTransaction.commit();
 
         } else if (id == R.id.nav_manage) {
 
-        } else if (id == R.id.nav_share) {
+            ListOfPlacesFragment fragment = new ListOfPlacesFragment();
+            android.support.v4.app.FragmentTransaction fragmentTransaction =
+                getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.fragment_container, fragment);
+            fragmentTransaction.commit();
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_helpline) {
 
+            HelplineFragment fragment = new HelplineFragment();
+            android.support.v4.app.FragmentTransaction fragmentTransaction =
+                getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.fragment_container, fragment);
+            fragmentTransaction.commit();
+
+        } else if (id == R.id.nav_logout) {
+            MainFragment fragment = new MainFragment();
+            android.support.v4.app.FragmentTransaction fragmentTransaction =
+                getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.fragment_container, fragment);
+            fragmentTransaction.commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -149,6 +174,21 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onCategoryFragmentInteraction(Uri uri) {
+
+    }
+
+    @Override
+    public void onPlacesFragmentInteraction(Uri uri) {
+
+    }
+
+    @Override
+    public void onNearBySearchFragmentInteraction(Uri uri) {
+
+    }
+
+    @Override
+    public void onHelpLineFragmentInteraction(Uri uri) {
 
     }
 
