@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.quarkstar.freedom.PlaceDetailActivity">
+<android.support.constraint.ConstraintLayout
+
+        android:id="@+id/activity_place_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <ImageView
+            android:src="@drawable/restorant_detail"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/imageView2"
+            android:scaleType="centerCrop"
+            app:layout_constraintLeft_toLeftOf="@+id/activity_place_detail"
+            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintTop_toTopOf="@+id/activity_place_detail"
+            tools:layout_constraintTop_creator="1"
+            app:layout_constraintRight_toRightOf="@+id/activity_place_detail"
+            tools:layout_constraintRight_creator="1"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            android:layout_marginBottom="16dp"
+            tools:layout_constraintBottom_creator="1"/>
+
+    <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            app:layout_constraintLeft_toLeftOf="@+id/activity_place_detail"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            android:layout_marginTop="16dp"
+            tools:layout_constraintTop_creator="1"/>
+
+    <TextView
+            android:text="SAFETY RATING"
+            android:layout_width="178dp"
+            android:layout_height="14dp"
+            android:id="@+id/textView4"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="@+id/activity_place_detail"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toTopOf="@+id/activity_place_detail"
+            android:layout_marginTop="208dp"
+            tools:layout_constraintTop_creator="1"/>
+
+    <TextView
+            android:text="DETAILS"
+            android:layout_width="58dp"
+            android:layout_height="16dp"
+            android:id="@+id/textView5"
+            app:layout_constraintLeft_toLeftOf="@+id/activity_place_detail"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/ratingBar"
+            android:layout_marginTop="14dp"
+            tools:layout_constraintTop_creator="1"/>
+
+    <TextView
+            android:text=" I love junk food a lot and came here thinking it would be good but sorry it was not upto my expectation. After tasting burger from burger king in europe i was enthusiastic to try this outlet at shipra but they had such rude staff and the burgers were tasting so bad as i had ordered for chicken whopper and chicken chilli cheese. not good at all. Please look in this matter."
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            app:layout_constraintLeft_toLeftOf="@+id/activity_place_detail"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            android:layout_marginTop="8dp"
+            app:layout_constraintRight_toRightOf="@+id/activity_place_detail"
+            app:layout_constraintHorizontal_bias="0.0"/>
+    <TextView
+            android:text="ADDRESS"
+            android:layout_width="359dp"
+            android:layout_height="16dp"
+            android:id="@+id/textViewAddress"
+            app:layout_constraintLeft_toLeftOf="@+id/activity_place_detail"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            android:layout_marginTop="8dp"/>
+    <TextView
+            android:text="Shop 18, Ground Floor, Shipra Mall, Vaibhav Khand, Indirapuram, Ghaziabad"
+            android:layout_width="359dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewAddress2"
+            app:layout_constraintLeft_toLeftOf="@+id/activity_place_detail"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAddress"
+            android:layout_marginTop="8dp"/>
+
+    <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guideline6"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="20dp"
+            app:relativeBegin="20dp"/>
+
+    <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guideline7"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="20dp"
+            app:relativeBegin="20dp"/>
+
+    <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guideline8"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="20dp"
+            app:relativeBegin="20dp"/>
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

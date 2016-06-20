@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/helplogo"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="24dp"
+        android:id="@+id/helpimageView"
+        android:layout_marginTop="24dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Spinner
+            android:layout_width="175dp"
+            android:layout_height="40dp"
+            android:id="@+id/countrySpinner"
+            android:layout_margin="10dp"
+            ></Spinner>
+        <Spinner
+            android:layout_width="175dp"
+            android:layout_height="40dp"
+            android:id="@+id/citySpinner"
+            android:layout_margin="10dp">></Spinner>
+    </LinearLayout>
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
+
+</LinearLayout>

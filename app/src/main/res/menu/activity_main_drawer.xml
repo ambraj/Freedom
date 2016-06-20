@@ -7,14 +7,6 @@
                 android:icon="@drawable/ic_menu_camera"
                 android:title="Home"/>
         <item
-                android:id="@+id/nav_slideshow"
-                android:icon="@drawable/ic_menu_slideshow"
-                android:title="Page on Category selection"/>
-        <item
-                android:id="@+id/nav_manage"
-                android:icon="@drawable/ic_menu_manage"
-                android:title="Nearby Places"/>
-        <item
                 android:id="@+id/nav_helpline"
                 android:icon="@drawable/ic_menu_share"
                 android:title="Helpline"/>

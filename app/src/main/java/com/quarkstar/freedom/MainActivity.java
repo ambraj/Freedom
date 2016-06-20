@@ -1,5 +1,6 @@
 package com.quarkstar.freedom;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -130,7 +131,7 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
 
-        }*/ else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_slideshow) {
 
             NearbySearchFragment fragment = new NearbySearchFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction =
@@ -146,13 +147,17 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
 
-        } else if (id == R.id.nav_helpline) {
+        }*/ else if (id == R.id.nav_helpline) {
 
-            HelplineFragment fragment = new HelplineFragment();
-            android.support.v4.app.FragmentTransaction fragmentTransaction =
-                getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.fragment_container, fragment);
-            fragmentTransaction.commit();
+            Intent intent = new Intent(this, HelpActicity.class);
+            startActivity(intent);
+
+
+//            HelplineFragment fragment = new HelplineFragment();
+//            android.support.v4.app.FragmentTransaction fragmentTransaction =
+//                getSupportFragmentManager().beginTransaction();
+//            fragmentTransaction.replace(R.id.fragment_container, fragment);
+//            fragmentTransaction.commit();
 
         } else if (id == R.id.nav_logout) {
             MainFragment fragment = new MainFragment();

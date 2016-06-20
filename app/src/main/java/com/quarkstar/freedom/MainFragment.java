@@ -8,9 +8,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.BaseAdapter;
 import android.widget.GridView;
-import com.quarkstar.freedom.adapter.ImageAdapter;
-
+import android.widget.ImageView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -67,7 +67,7 @@ public class MainFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         GridView gridLayout = (GridView) getView().findViewById(R.id.grid_view);
-        gridLayout.setAdapter(new ImageAdapter(getActivity()));
+        gridLayout.setAdapter(new CategoryGridAdapter(getActivity()));
     }
 
     @Override
@@ -114,5 +114,62 @@ public class MainFragment extends Fragment {
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
         void onMainFragmentInteraction(Uri uri);
+    }
+
+    class CategoryGridAdapter extends BaseAdapter {
+        private Context mContext;
+
+        // Keep all Images in array
+        public Integer[] mThumbIds = {
+            R.drawable.restaurant, R.drawable.bar,
+            R.drawable.nightclub, R.drawable.mall,
+        };
+
+        // Constructor
+        public CategoryGridAdapter(Context c){
+            mContext = c;
+        }
+
+        @Override
+        public int getCount() {
+            return mThumbIds.length;
+        }
+
+        @Override
+        public Object getItem(int position) {
+            return mThumbIds[position];
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return 0;
+        }
+
+        @Override
+        public View getView(final int position, View convertView, ViewGroup parent) {
+            ImageView imageView = new ImageView(mContext);
+            imageView.setImageResource(mThumbIds[position]);
+            imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+            imageView.setLayoutParams(new GridView.LayoutParams(500, 300));
+
+            imageView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    NearbySearchFragment fragment = new NearbySearchFragment();
+
+                    Bundle bundle = new Bundle();
+                    bundle.putInt("categoryPosition", position);
+                    fragment.setArguments(bundle);
+
+                    android.support.v4.app.FragmentTransaction fragmentTransaction =
+                        MainFragment.this.getActivity().getSupportFragmentManager().beginTransaction();
+                    fragmentTransaction.replace(R.id.fragment_container, fragment);
+                    fragmentTransaction.commit();
+                }
+            });
+
+            return imageView;
+        }
+
     }
 }
